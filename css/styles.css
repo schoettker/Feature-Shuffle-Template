@@ -44,10 +44,13 @@
   width: 100%;
   margin: 0;
 }
-.secondary:nth-child(odd) .gallery {
-  float: right;
-}
+
 /*Media Queries*/
+@media screen and (max-width: 969px) {
+  .secondary:nth-child(odd) .gallery {
+  float: right;
+  }
+}
 @media screen and (min-width: 540px) {
   .logo , .nav {
     width: 30%;
@@ -64,4 +67,36 @@
   .secondary:nth-child(even) p,.secondary:nth-child(even) h2 {
   margin-left: 2%;
 }
+}
+@media screen and (min-width: 970px) {
+  #wrap {
+    width: 96%;
+    margin: 0 auto;
+    min-height: 5%;
+  }
+  .nav {
+    float: right;
+  }
+  .main {
+    margin-top: 20px;
+    width: 96%;
+  }
+  .secondary {
+    width: 32%;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .gallery {
+    float: none;
+    width: 50%;
+    height: 25%;
+  }
+  .secondary p, .secondary h2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .wrap {
+    margin: 0 auto;
+    text-align: center;
+  }
 }
