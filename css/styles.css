@@ -31,6 +31,7 @@ body {
   width: 100%;
   height: 20%;
   margin: 0 auto;
+  margin-top: 20px;
   background-color: rgba(0, 0, 0, 0.8);
 }
 .secondary {
@@ -83,7 +84,6 @@ body {
     float: right;
   }
   .main {
-    margin-top: 20px;
     width: 96%;
   }
   .secondary {
