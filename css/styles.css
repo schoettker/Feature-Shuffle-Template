@@ -14,3 +14,33 @@
   width: 98%;
   margin: 0 auto;
 }
+.logo, .nav{
+  display: inline-block;
+  width: 30%;
+  height: 5%;
+  /*float: left;*/
+}
+.logo {
+  float: left;
+}
+.main {
+  width: 90%;
+  height: 20%;
+  margin: 0 auto;
+}
+.gallery {
+  background-color: red;
+  height: 25vw;
+  width: 25vw;
+  display: inline-block;
+  float: left;
+  display: none;
+}
+.secondary p, .secondary h2 {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+.secondary:nth-child(odd) .gallery {
+  float: right;
+}
