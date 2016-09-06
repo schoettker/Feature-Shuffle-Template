@@ -10,3 +10,7 @@
 }
 
 /* End for testing */
+.container {
+  width: 98%;
+  margin: 0 auto;
+}
